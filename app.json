@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "ReferredBy",
+    "slug": "ReferredBy",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "buildNumber": "1.0.5",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ReferredBy.Mwaikange",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This $(PRODUCT_NAME) uses the camera to upload selfie for applying loan.",
+        "NSPhotoLibraryUsageDescription": "This $(PRODUCT_NAME) uses the camera to capture image to upload selfie for applying loan."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ReferredBy.Mwaikange",
+      "versionCode": 5,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0",
+            "minSdkVersion": 23
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "64e72d87-3b07-4ff1-9726-dbd4f0737b4b"
+      }
+    }
+  }
+}
